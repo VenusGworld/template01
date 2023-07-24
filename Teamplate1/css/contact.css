@@ -1,0 +1,87 @@
+
+/* Contact  */
+
+.contact{
+    background-color: transparent;
+    height: 100vh;
+}
+
+.contact>.container>.contact-content{
+    overflow: hidden;
+}
+.contact>.container>.contact-content>.contact-items{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 30px;
+
+}
+.contact>.container>.contact-content>.contact-items>.contact-item{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.contact>.container>.contact-content>.contact-items>.ci2-mg{
+    margin: 0 5%;
+}
+.contact>.container>.contact-content>.contact-items>.contact-item>i{
+    color: var(--primaryColor);
+    font-size: 30px;
+}
+.contact>.container>.contact-content>.contact-items>.contact-item>h3{
+    font-weight: bolder;
+    line-height: 2;
+    margin-bottom: 5px;
+}
+.contact>.container>.contact-content>.contact-items>.contact-item>span{
+    color: #4f4f4f;
+}
+
+.content-inputs{
+    width: 100%;
+    height: 40vh;
+}
+.content-inputs-items{
+    margin-left: 20%;
+    width: 60%;
+}
+.content-inputs-items>.input{
+    display: inline;
+    outline: none;
+    border: none;
+    background-color: #f1f1f1;
+    margin: 10px 0 0px;
+    border-radius: 4px;
+}
+
+.content-inputs-items>.inp1{
+    width: 49%;
+    padding: 0;
+    height: 35px;
+}
+.content-inputs-items>.inp2{
+    width: 50.3%;
+    height: 35px;
+}
+.content-inputs-items>.inp3{
+    width: 100%;
+    height: 35px;
+}
+.content-inputs-items>.inp4{
+    width: 100%;
+    height: 60px;
+
+}
+.content-inputs-items>.content-button{
+    width: 30%;
+    height: 50px;
+    background-color: var(--primaryColor);
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    margin-left: 230px;
+    margin: 40px 0 0 35% ;
+    border-radius: 4px;
+    cursor: pointer;
+
+}

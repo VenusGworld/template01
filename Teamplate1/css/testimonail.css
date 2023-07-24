@@ -1,0 +1,55 @@
+
+/* Testimonail */
+
+.testimonail{
+    height: 100vh;
+    background-image: url("../images/background/background3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+}
+.testimonail>.overlay{
+    position: relative;
+}
+.testimonail>.overlay>.container>.tastimonail-content{
+    overflow: hidden;
+    width: 100%;
+    padding: 80px 0;
+}
+.testimonail>.overlay>.container>.tastimonail-content>.testimonail-item{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+.testimonail>.overlay>.container>.tastimonail-content>.testimonail-item>.trstimonail-toplayer{
+    width: 100%;
+    text-align: left;
+    padding: 5% 0 10% 32%;
+    position: relative;
+}
+.testimonail>.overlay>.container>.tastimonail-content>.testimonail-item>.trstimonail-toplayer>img{
+    width: 20%;
+    border-radius: 50%;
+    position: absolute;
+    left:10%;
+    top: 10%;
+}
+.testimonail>.overlay>.container>.tastimonail-content>.testimonail-item>.trstimonail-toplayer>h3{
+    font-size: 26px;
+    color: white;
+    font-weight: bolder;
+}
+.testimonail>.overlay>.container>.tastimonail-content>.testimonail-item>.trstimonail-toplayer>span{
+    font-size: 20px;
+    color: var(--primaryColor);
+    font-weight: bolder;
+    font-style: italic;
+}
+.testimonail>.overlay>.container>.tastimonail-content>.testimonail-item>p{
+    width: 90%;
+    line-height: 1.4;
+    padding: 2% 0 0 10%;
+    color: white;
+    font-size: 16px;
+
+}

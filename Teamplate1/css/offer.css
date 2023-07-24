@@ -1,0 +1,113 @@
+
+/* What we offer section */
+
+.offer{
+    background-color: transparent;
+}
+
+.offer>.container>.offer-content{
+    overflow: hidden;
+}
+
+.offer>.container>.offer-content>.offer-items{
+    width: 30%;
+    height: 20vh;
+    background-color: #ffffff;
+    border: 1px solid gray;
+    float: left;
+    margin: 2% 0 2% 0;
+    padding: 20px 15px 30px 60px;
+    position: relative;
+    transition: 1s;
+}
+
+.offer>.container>.offer-content>.offer-items:hover{
+    background-color: black;
+    color: #ffffff;
+}
+.offer>.container>.offer-content>.offer-items:hover .offer-item-desc{
+    color: rgb(168, 168, 168);
+}
+
+.offer>.container>.offer-content>.mg{
+    margin: 2% 5%;
+}
+.offer>.container>.offer-content>.offer-items>.icon{
+    display: inline-block;
+    position: absolute;
+    left: 3%;
+    line-height: 1.4;
+    color: var(--primaryColor);
+}
+.offer>.container>.offer-content>.offer-items>.offer-item-title{
+    text-transform: capitalize;
+
+}
+.offer>.container>.offer-content>.offer-items>.offer-item-desc{
+    line-height: 1.5;
+}
+
+/* Service section */
+
+.service{
+    background-color: #f3f3f3;
+    height: 100vh;
+}
+.service>.container>.service-item{
+    text-align: left;
+    width: 50%;
+    float: left;
+}
+.service>.container>.service-item>.section-line{
+    margin: 0;
+    width: 8%;
+    height: 4px;
+}
+.service>.container>.service-item>p , .service>.container>.service-item>ul{
+    margin: 20px 0;
+    width: 90%;
+    color: #a6a6a6;
+    font-size: 17px;
+    line-height: 1.5;
+}
+.service>.container>.service-item>.service-list{
+    list-style: none;
+}
+.service>.container>.service-item>.service-list>li{
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.service>.container>.service-item>.service-list>li>i{
+    border: 3px solid var(--primaryColor);
+    border-radius: 50%;
+    padding: 4px 4px;
+    color: var(--primaryColor);
+}
+
+.service-item>.service-item-image{
+    width: 90%;
+}
+.service-item>.service-item-image>img{
+    width: 100%;
+}
+.service>.container>.service-item>.service-bollets{
+    margin: 0;
+    list-style: none;
+    text-align: center;
+
+}
+.service>.container>.service-item>.service-bollets>li{
+    background-color: #ebebeb;
+    border: 2px solid rgb(136, 136, 136);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.service>.container>.service-item>.service-bollets>li:hover{
+    background-color: var(--primaryColor);
+
+}
+.service>.container>.service-item>.service-bollets>li.active{
+    background-color: var(--primaryColor);
+}
